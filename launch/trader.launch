@@ -1,11 +1,11 @@
 <launch>
-  <node name="trader" pkg="autonomous_agent_template" type="trader_node" output="screen">
+  <node name="trader" pkg="dczd_simserver_agent" type="trader_node" output="screen">
     <!-- Address of a lighthouse you work on, airalab on sidechain lighthouse by default -->
-    <param name="lighthouse" value="0xE85764E29583224C1D063639d2AeeeD7c389DF4d" />
+    <param name="lighthouse" value="0xE730a219813BC7b54BE2bE4dBf1473eaF22F3169" />
     <!-- A unique model Qm...., hello_aira model by default -->
-    <param name="model" value="QmUB6ajZTLLMZg7re1v4hw44aoG8HDQDHr9JyujU264Aw2" />
+    <param name="model" value="QmY5NqZdbHqupP5xrTCkPGh6n5NthET7ePwmL2qewTrxcF" />
     <!-- A token your CPS works with, bridged XRT token by default -->
-    <param name="token" value="0x093ac06910f23570292fd5027a4fA558ed4Cd010" />
+    <param name="token" value="0xc34B089D3Dfe7bdf39a7Cd3D64116b2395dba845" />
     <!-- Ethereum blocks lifetime, ~12-15 sec for one -->
     <param name="order_lifetime" value="100" />
   </node>

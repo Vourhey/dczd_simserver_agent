@@ -1,3 +1,3 @@
 <launch>
-  <node name="worker" pkg="autonomous_agent_template" type="worker_node" output="screen" />
+  <node name="worker" pkg="dczd_simserver_agent" type="worker_node" output="screen" />
 </launch>

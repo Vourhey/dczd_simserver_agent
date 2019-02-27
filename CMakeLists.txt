@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(autonomous_agent_template)
+project(dczd_simserver_agent)
 
 find_package(catkin REQUIRED COMPONENTS
   rospy
